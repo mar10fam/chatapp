@@ -1,0 +1,19 @@
+{
+  "name": "chatapp",
+  "version": "1.0.0",
+  "description": "chat applications with different chat rooms",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mar10fam/chatapp.git"
+  },
+  "author": "Martin Pham",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mar10fam/chatapp/issues"
+  },
+  "homepage": "https://github.com/mar10fam/chatapp#readme"
+}
