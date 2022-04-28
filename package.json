@@ -4,7 +4,8 @@
   "description": "chat applications with different chat rooms",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node server",
+    "dev": "nodemon server"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,13 @@
   "bugs": {
     "url": "https://github.com/mar10fam/chatapp/issues"
   },
-  "homepage": "https://github.com/mar10fam/chatapp#readme"
+  "homepage": "https://github.com/mar10fam/chatapp#readme",
+  "dependencies": {
+    "express": "^4.18.0",
+    "moment": "^2.29.3",
+    "socket.io": "^4.5.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
 }
